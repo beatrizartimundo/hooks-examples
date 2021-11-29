@@ -7,6 +7,7 @@ const UseCallback = props => {
     const [count, setCount] = useState(0)
     
     //sem useCallback, renderiza varias vezes pois considera como uma funcao 'diferente'
+    //quando vai passar a funcao para um outro componente
     // const inc = (delta) =>{
     //     setCount(curr => curr + delta)
     // }
